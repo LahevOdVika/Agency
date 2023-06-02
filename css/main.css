@@ -1,0 +1,70 @@
+*, body {
+	font-family: "Roboto", sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: black;
+}
+body {
+	background-image: url("/img/beach.jpeg");
+	background-attachment: fixed;
+}
+header {
+	background-color: lightgrey;
+	padding: 10px;
+	float: left;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+header h1 {
+	float: left;
+}
+nav a {
+	display: inline-block;
+	padding: 10px;
+	float: left;
+	margin-left: 5px;
+}
+a:hover, a:visited, a:link {
+	color: black;
+}
+.card-img {
+}
+.navigation i {
+	float: left;
+	margin: 10px;
+}
+.main-content {
+	color: white;
+	height: 100%;
+}
+aside {
+	background-color: lightgrey;
+	float: left;
+	width: 25%;
+	height: 500px;
+}
+.trips {
+	width: 73%;
+	float: left;
+	margin: 10px;
+	background-color: lightgrey;
+	border-radius: 10px;
+	padding: 10px;
+}
+.card {
+	background-color: white;
+	text-align: center;
+	width: 30%;
+	border-radius: 10px;
+	transition: box-shadow 0.2s ease-in-out;
+}
+.card:hover {
+	box-shadow: 10px 10px 5px grey;
+}
+.card-img {
+	width: 100%;
+	border-radius: 10px;
+}
