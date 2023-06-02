@@ -46,9 +46,8 @@ a:hover, a:visited, a:link {
 	float: left;
 	background-color: var(--myDarkGray);
 	border-radius: 10px;
-	padding: 15px;
-	padding-top: 0px;
-	margin: 10px;
+	padding: 0px 15px;
+	margin: 10px 10px 50px 10px;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -61,6 +60,7 @@ a:hover, a:visited, a:link {
 	transition: box-shadow 0.2s ease-in-out;
 	color: black;
 	margin-top: 15px;
+	margin-bottom: 15px;
 }
 .card:hover {
 	box-shadow: 10px 10px 5px grey;
@@ -85,7 +85,7 @@ footer {
 		width: 48%;
 	}
 	.trips {
-		margin: 5px;
+		margin: 5px 5px 50px 5px;
 	}
 }
 @media only screen and (max-width: 480px) {
@@ -94,6 +94,5 @@ footer {
 	}
 	.trips {
 		flex-direction: column;
-		margin: 5px;
 	}
 }
