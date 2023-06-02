@@ -4,22 +4,21 @@
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
-	color: black;
 }
 body {
-	background-image: url("/img/beach.jpeg");
+	background-color: rgb(70, 70, 70);
 	background-attachment: fixed;
 }
 header {
-	background-color: lightgrey;
+	background-color: rgb(49, 53, 55);
 	padding: 10px;
 	float: left;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 }
-header h1 {
-	float: left;
+header {
+	color: white;
 }
 nav a {
 	display: inline-block;
@@ -28,9 +27,7 @@ nav a {
 	margin-left: 5px;
 }
 a:hover, a:visited, a:link {
-	color: black;
-}
-.card-img {
+	color: white;
 }
 .navigation i {
 	float: left;
@@ -40,19 +37,13 @@ a:hover, a:visited, a:link {
 	color: white;
 	height: 100%;
 }
-aside {
-	background-color: lightgrey;
-	float: left;
-	width: 25%;
-	height: 500px;
-}
 .trips {
-	width: 73%;
+	width: 99%;
 	float: left;
-	margin: 10px;
-	background-color: lightgrey;
+	background-color: rgb(49, 53, 55);
 	border-radius: 10px;
 	padding: 10px;
+	margin: 10px;
 }
 .card {
 	background-color: white;
@@ -60,6 +51,7 @@ aside {
 	width: 30%;
 	border-radius: 10px;
 	transition: box-shadow 0.2s ease-in-out;
+	color: black;
 }
 .card:hover {
 	box-shadow: 10px 10px 5px grey;
