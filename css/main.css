@@ -41,7 +41,7 @@ a:hover, a:visited, a:link {
 	color: white;
 	height: 100%;
 }
-.trips {
+.trips{
 	width: 99%;
 	float: left;
 	background-color: var(--myDarkGray);
@@ -52,18 +52,35 @@ a:hover, a:visited, a:link {
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
+.contact {
+	width: 99%;
+	float: left;
+	background-color: var(--myDarkGray);
+	border-radius: 10px;
+	padding: 15px 15px;
+	margin: 10px 10px 50px 10px;
+}
+.contact img, address{
+	float: left;
+}
+.plane {
+	border-radius: 10px;
+}
+.contact p {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
 .card {
 	background-color: white;
 	text-align: center;
-	width: 30%;
+	width: 25%;
 	border-radius: 10px;
 	transition: box-shadow 0.2s ease-in-out;
 	color: black;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin: 15px;
 }
 .card:hover {
-	box-shadow: 10px 10px 5px grey;
+	box-shadow: 7px 0 20px grey;
 }
 .card-img {
 	width: 100%;
